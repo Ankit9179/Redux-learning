@@ -1,0 +1,46 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.cart {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.item-price {
+    flex-basis: 70px;
+    text-align: right;
+}
+
+.total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.total-price {
+    color: #f00;
+}
